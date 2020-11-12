@@ -1,0 +1,33 @@
+/* PLUGINS */
+/* BASE STYLES */
+/* LAYOUTS */
+/* MODULES */
+.box {
+  height: 100px;
+  width: 100px;
+  background: red;
+  display: inline-block;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 5px 10px #555;
+  -moz-box-shadow: 0 5px 10px #555;
+  box-shadow: 0 5px 10px #555; }
+
+.box2 {
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  border-radius: 25%;
+  -webkit-box-shadow: 0 5px 10px cyan;
+  -moz-box-shadow: 0 5px 10px cyan;
+  box-shadow: 0 5px 10px cyan; }
+
+.box3 {
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 5px 10px orange;
+  -moz-box-shadow: 0 5px 10px orange;
+  box-shadow: 0 5px 10px orange; }
+
+/*# sourceMappingURL=app.css.map */

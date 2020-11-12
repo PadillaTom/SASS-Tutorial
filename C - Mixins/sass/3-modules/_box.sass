@@ -1,4 +1,31 @@
+//  Normal SASS without MIXINS!!!!! 
+//  Lots of lines to make a simple thing
 .box
-    height: 10rem
-    width: 10rem
-    background: violet
+    height: 100px
+    width: 100px
+    background: red
+    display: inline-block
+
+    +box(100%, #555)
+
+.box2
+    +box(25%, cyan)
+
+.box3
+    +box(1rem, orange)
+
+    // -webkit-border-radius: 100%
+    // -moz-border-radius: 100%
+    // border-radius: 100%
+
+    // -webkit-box-shadow: 0 5px 10px #555
+    // -moz-box-shadow: 0 5px 10px #555
+    // box-shadow: 0 5px 10px #555
+
+//  Creamos el nuevo FILE MIXINS.SASS 
+//  Para facilitar el codigo.
+
+// Reemplazamos el codigo anterior con el nuevo mixin creado
+// +box(Parametros: Radius, ShadowColor)
+
+    
