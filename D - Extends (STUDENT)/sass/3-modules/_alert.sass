@@ -1,1 +1,23 @@
+// What are Extends? We can share values between elements.
+//  Lets say we want to use ALERT Styling into different elements that does not have this ALERT Class
+    
+    
 // ALERTS
+.alert
+    border: solid 1px #333
+    margin: 10px 0px
+    padding: 1rem
+    text-transform: uppercase
+    +border-radius(4px)
+
+.success
+    @extend .alert
+    background: green
+
+.warning
+    @extend .alert
+    background: yellow
+
+.error
+    @extend .alert
+    background: red
